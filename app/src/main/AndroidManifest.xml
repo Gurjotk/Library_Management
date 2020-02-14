@@ -22,11 +22,7 @@
         <activity android:name=".HomePage" />
         <activity android:name=".BookCategories" />
         <activity android:name=".EditProfile" />
-        <activity
-            android:name=".ui.login.LoginActivity"
-            android:label="@string/title_activity_login">
 
-        </activity>
         <activity android:name=".MainActivity"></activity>
     </application>
 

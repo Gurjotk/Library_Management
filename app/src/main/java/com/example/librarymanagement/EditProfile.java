@@ -15,7 +15,7 @@ Button btn;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_profile);
 
-        btn=findViewById(R.id.button2);
+        btn=findViewById(R.id.login);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

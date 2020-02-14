@@ -100,7 +100,7 @@
         app:layout_constraintVertical_bias="0.547" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -114,7 +114,7 @@
         tools:text="DOB" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Edit"
