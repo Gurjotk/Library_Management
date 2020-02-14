@@ -8,12 +8,12 @@ import android.os.Bundle;
 import android.widget.Button;
 
 public class contact extends AppCompatActivity {
-    Button b;
+    Button c;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.contact);
-        b= findViewById(R.id.button);
-        b.setOnClickListener(new View.OnClickListener() {
+        c= findViewById(R.id.buttonc);
+       c.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i= new Intent(contact.this,MainActivity.class);

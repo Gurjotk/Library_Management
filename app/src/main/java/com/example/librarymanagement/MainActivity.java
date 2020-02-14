@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button b;
+    Button b,s;
     Button edp;
 
 
@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
        b= findViewById(R.id.contact);
        edp=findViewById(R.id.profile);
+       s=findViewById(R.id.search);
        edp.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
@@ -30,9 +31,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i= new Intent(MainActivity.this,contact.class);
                 startActivity(i);
-
             }
         });
-
+        s.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i= new Intent(MainActivity.this,BookCategories.class);
+                startActivity(i);
+            }
+        });
     }
 }
