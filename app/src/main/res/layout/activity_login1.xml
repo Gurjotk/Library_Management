@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:text="New User?"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textColor="#F34F1C"
+            android:textColor="#111010"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:text="Forget password"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textColor="#F34F1C"
+            android:textColor="#161515"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -60,17 +60,17 @@
             android:layout_height="wrap_content"
             android:text="Password"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textColor="#F34F1C"
+            android:textColor="#131313"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.167"
+            app:layout_constraintHorizontal_bias="0.101"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.349" />
+            app:layout_constraintVertical_bias="0.344" />
 
         <EditText
-            android:id="@+id/username"
+            android:id="@+id/dob1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -93,7 +93,7 @@
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.253"
+            app:layout_constraintHorizontal_bias="0.145"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.218" />
