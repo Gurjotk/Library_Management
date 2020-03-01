@@ -44,8 +44,10 @@ public class login1 extends AppCompatActivity {
                 String pa = pass.getText().toString();
                 switch(v.getId()){
                     case R.id.login:
+                        addDataFirestore();
                         break;
                     case R.id.textView30:
+
                         break;
                 }
             }
