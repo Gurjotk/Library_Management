@@ -47,7 +47,9 @@ public class login1 extends AppCompatActivity {
                         addDataFirestore();
                         break;
                     case R.id.textView30:
+                        Intent i1 = new Intent(login1.this, EditProfile.class);
 
+                        startActivity(i1);
                         break;
                 }
             }
