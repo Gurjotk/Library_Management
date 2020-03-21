@@ -23,8 +23,6 @@ String subject[]={"Fiction","Non-fiction","Religious","science","Political","com
 
 ArrayAdapter<String>arrayAdapter;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

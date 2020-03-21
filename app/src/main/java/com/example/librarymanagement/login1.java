@@ -8,14 +8,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -45,6 +43,7 @@ public class login1 extends AppCompatActivity {
                 switch(v.getId()){
                     case R.id.login:
                         addDataFirestore();
+
                         break;
                     case R.id.textView30:
 
@@ -64,7 +63,9 @@ public class login1 extends AppCompatActivity {
                     .addOnCompleteListener(new OnCompleteListener<DocumentReference>() {
                         @Override
                         public void onComplete(@NonNull Task<DocumentReference> task) {
+
                             Toast.makeText(login1.this, "Done", Toast.LENGTH_LONG).show();
+
                         }
                     }).addOnFailureListener(new OnFailureListener() {
                 @Override
@@ -84,5 +85,12 @@ public class login1 extends AppCompatActivity {
             });
         }
     });
+        l.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i2= new Intent(login1.this,MainActivity.class);
+                startActivity(i2);
+            }
+        });
     }
 }
