@@ -11,19 +11,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".login1">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".MainActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity android:name=".login1">
+
         </activity>
         <activity android:name=".contactus" />
         <activity android:name=".HomePage" />
         <activity android:name=".BookCategories" />
         <activity android:name=".EditProfile" />
 
-        <activity android:name=".MainActivity"></activity>
+
     </application>
 
 </manifest>
